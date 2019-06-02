@@ -1,1 +1,30 @@
 # gitlibrary
+$ git add test.txt
+warning: LF will be replaced by CRLF in test.txt.
+The file will have its original line endings in your working directory
+
+Feel@DESKTOP-6ITUHNQ MINGW64 /e/gitlibrary (master)
+$ git commit -m "test"
+[master (root-commit) d833313] test
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+Feel@DESKTOP-6ITUHNQ MINGW64 /e/gitlibrary (master)
+$ git remote add origin git@github.com:An-feel/gitlibrary.git
+
+Feel@DESKTOP-6ITUHNQ MINGW64 /e/gitlibrary (master)
+$ git push -u origin master
+The authenticity of host 'github.com (52.74.223.119)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,52.74.223.119' (RSA) to the list of known hosts.
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 215 bytes | 215.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:An-feel/gitlibrary.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Feel@DESKTOP-6ITUHNQ MINGW64 /e/gitlibrary (master)
+$
